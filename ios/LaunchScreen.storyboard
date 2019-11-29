@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashImage" highlightedImage="SplashImage" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4u9-N3-4ng">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="59b-Ek-KWV"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="bottom" secondItem="Bcu-3y-fUS" secondAttribute="bottom" id="6rb-FY-Mib"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="9pb-Uv-6kJ"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="D1d-ux-aao"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="EMH-hY-Dcm"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="4u9-N3-4ng" secondAttribute="trailing" id="J7C-oL-Iav"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="NaC-ZM-Shn"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="OBg-3R-WHN"/>
+                            <constraint firstAttribute="bottom" secondItem="4u9-N3-4ng" secondAttribute="bottom" id="Oqx-Ih-HKT"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="SRa-pl-aPX"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="bottom" secondItem="Bcu-3y-fUS" secondAttribute="bottom" id="Sdw-0W-dVK"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="YJX-Fc-WPp"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="bottom" secondItem="Bcu-3y-fUS" secondAttribute="bottom" id="YnS-V0-HyD"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="bCL-mF-61t"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="dI0-ez-J6a"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="iLc-sm-zXd"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="sjC-zd-LE3"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="bottom" secondItem="Bcu-3y-fUS" secondAttribute="bottom" id="vhp-EY-HrI"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="wFl-ro-e9v"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="zIC-Ct-jzJ"/>
+                            <constraint firstItem="4u9-N3-4ng" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="zbi-vQ-UlO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SplashImage" width="414" height="736"/>
+    </resources>
+</document>

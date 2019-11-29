@@ -1,0 +1,19 @@
+const MirrorBaseUrl = ""
+
+const api = {
+  /**Slide Show*/
+  Mirror_banner: '',
+  /**類別列表*/
+  Mirror_section_list: '',
+  Mirror_section: '',
+  /**album列表*/
+  Mirror_album: '',
+  /**album列表*/
+  Mirror_cate_album: '',
+  /**單曲列表*/
+  Mirror_listing: '',
+  /**小分類列表*/
+  Mirror_postcategories: '',
+}
+
+export { api };
